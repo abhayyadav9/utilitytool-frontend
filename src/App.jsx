@@ -5,11 +5,12 @@ import Navbar from "./component/Navbar";
 import Background from "./component/Page/BackGround";
 import QrGenerator from "./component/Page/QrGeneratoer";
 import BackgroundRemover from "./component/Page/BackgroundRemover";
-import FileConverter from "./component/Page/FileConverter";
-import Doc_pdf from "./component/Page/doc_pdf";
+
 import Pdf_doc from "./component/Page/Pdf_doc";
 import ImageEnhancer from "./component/Page/ImageEnhancer";
 import Resizer from "./component/Page/Resizer";
+import Doc_pdf from "./component/Page/Doc_pdf";
+
 
 const App = () => {
   return (
