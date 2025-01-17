@@ -21,7 +21,7 @@ const BackgroundRemover = () => {
     formData.append('image', file);
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/remove-background', formData, {
+      const response = await axios.post('https://utilitytool-backend.onrender.com/remove-background', formData, {
         responseType: 'blob',
       });
 
